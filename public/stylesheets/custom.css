@@ -1,0 +1,113 @@
+.hero.is-primary {
+      background-color: #6f42c1;
+}
+
+.hero-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.title {
+      color: white; 
+}
+
+.subtitle {
+      color: rgb(255, 255, 255);
+}
+
+.button.is-light.is-outlined {
+      border-color: white;
+      color: white;
+}
+
+.button.is-light.is-outlined:hover {
+      background-color: white;
+      color: #6f42c1;
+      border-color: #6f42c1;
+}
+
+.card {
+    background-color: #2d2d2d;
+    color: #f1f1f1; 
+}
+
+.card-content {
+    color: #eaeaea; 
+}
+
+.subtitle.is-size-5 {
+    color: #f1f1f1; 
+}
+
+.subtitle.is-size-6 {
+    color: #b0b0b0; 
+}
+
+.card-footer-item a:hover {
+    color: #8ab9f6; 
+}
+
+.custom-checkbox {
+    display: flex; 
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: relative;
+    height: 22px;
+    width: 22px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    margin-right: 12px; 
+}
+
+.custom-checkbox:hover .checkmark {
+    border-color: #999;
+}
+
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: #23d160; 
+    border-color: #23d160;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.custom-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.task-container.task-done .task-name {
+    text-decoration: line-through;
+    color: #999;
+}
